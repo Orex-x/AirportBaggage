@@ -30,6 +30,9 @@ public class ApiController : Controller
         return list;
     }
     
+    
+
+
     public async Task ExportData()
     {
         const string dirName = @"C:\tmp\csv";
@@ -43,7 +46,7 @@ public class ApiController : Controller
         var fileName = $"{date.Year}{date.Month}{date.Day}_{date.Hour}{date.Minute}";
         await PSqlDump(
             @"C:\Program Files\PostgreSQL\14\bin\", 
-            "333", 
+            "123", 
             "postgres", 
             "Airport", 
             $@"C:/tmp/{fileName}");
@@ -55,7 +58,7 @@ public class ApiController : Controller
     {
         await PSqlRestore(
             @"C:\Program Files\PostgreSQL\14\bin\", 
-            "333", 
+            "123", 
             "postgres", 
             "Airport", 
             $"/tmp/{name}");

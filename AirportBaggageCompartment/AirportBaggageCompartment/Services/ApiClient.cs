@@ -95,8 +95,7 @@ public class ApiClient
         }
         catch(Exception e)
         {
-           
-
+            Console.Write(e);
         } 
         return null;
     }
@@ -118,7 +117,7 @@ public class ApiClient
         }
         catch (Exception ex)
         {
-
+            Console.Write(ex);
         }
         return 0;
     }

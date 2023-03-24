@@ -4,26 +4,20 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 <div>
-    <div class="panel-light" style="width: auto;height: auto; margin-top: 80px; margin-bottom: 50px; margin-right: 50px">
-        <div class="card" style="border-radius: 25px; margin-top: 30px">
-            <div style="margin: 20px">
-                <h1>Количество полетов в города</h1>
-            </div>
-            <div class="card-body">
-                <canvas id="BarChart" max-height="100" max-width="100"></canvas>
-            </div>
-        </div>
+    <div style="margin: 20px; align-content: center">
+        <h1>Количество полетов в города</h1>
     </div>
+    <div class="card-body">
+        <canvas id="BarChart" max-height="100" max-width="100"></canvas>
+    </div>
+    
 
-    <div class="panel-light" style="width: auto; height: auto; margin-top: 80px; margin-bottom: 50px; margin-right: 50px; color: #1a1e21">
-        <div class="card" style="border-radius: 25px; margin-top: 30px">
-            <div style="margin: 20px">
-                <h1>Количество полетов за год</h1>
-            </div>
-            <div class="card-body">
-                <canvas id="LineChart" height="100" width="100"></canvas>
-            </div>
-        </div>
+    
+    <div style="margin: 20px">
+        <h1>Число полетов за год</h1>
+    </div>
+    <div class="card-body">
+        <canvas id="LineChart" height="100" width="100"></canvas>
     </div>
 </div>
 
@@ -59,24 +53,11 @@
     data: {
       labels: BarLabels,
       datasets: [{
-        label: 'Количество продаж',
+        label: 'Количество полётов',
         data: BarData,
         borderWidth: 1
       }]
     },
-    options: {
-            scales: {
-              x: {
-                ticks: {
-                  // For a category axis, the val is the index so the lookup via getLabelForValue is needed
-                  callback: function() {
-                    // Hide every 2nd tick label
-                    return '';
-                  },
-                }
-              }
-            }
-          },
   });
   
   new Chart(lineCTX, {

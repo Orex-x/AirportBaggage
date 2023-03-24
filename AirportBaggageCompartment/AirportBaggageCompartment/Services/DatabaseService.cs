@@ -15,10 +15,10 @@ public class DatabaseService
         var fileName = $"{date.Year}{date.Month}{date.Day}_{date.Hour}{date.Minute}";
         await PSqlDump(
             @"C:\Program Files\PostgreSQL\14\bin\", 
-            "333", 
+            "123", 
             "postgres", 
             "Airport", 
-            $@"C:/tmp/{fileName}");
+            $@"C:/db_dumps/{fileName}");
     } 
     
   
@@ -27,15 +27,15 @@ public class DatabaseService
     {
         await PSqlRestore(
             @"C:\Program Files\PostgreSQL\14\bin\", 
-            "333", 
+            "123", 
             "postgres", 
             "Airport", 
-            $"/tmp/{name}");
+            $"/db_dumps/{name}");
     }
     
     public static void OpenFolder()
     {
-        Process.Start("explorer", @"C:\tmp\csv");
+        Process.Start("explorer", @"C:\db_dumps\csv");
     }
 
     private static async Task PSqlDump(string pathToExecutableFile, string password, string login, string database, string outputFile)

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AirportBaggageCompartmentBackend.Controllers.ApiController">
+    <Position X="7.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgABgAQAAAAQIAAAAAACwAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Controllers\ApiController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirportBaggageCompartmentBackend.Controllers.HomeController">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEgAAAAAAAgQAAAAAAAAAAAAAAAQAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirportBaggageCompartmentBackend.Models.Baggage">
+    <Position X="2" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECACAABAAAgAAAAAAAAAAACCBAQBAACAAAAAACgAA=</HashCode>
+      <FileName>Models\Baggage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirportBaggageCompartmentBackend.Models.ChartModel">
+    <Position X="5.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Models\ChartModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirportBaggageCompartmentBackend.Models.Customer">
+    <Position X="2" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAACAAAABAAAAAAAAAAAAAAAAAAAAAIAAAAAg=</HashCode>
+      <FileName>Models\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirportBaggageCompartmentBackend.Models.Employee">
+    <Position X="9" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAABCAAAAAgACAAAAQAAACAAAAACAAAIAAAAAA=</HashCode>
+      <FileName>Models\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirportBaggageCompartmentBackend.Models.ErrorViewModel">
+    <Position X="3.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ErrorViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirportBaggageCompartmentBackend.Models.Flight">
+    <Position X="5.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAAAAAAAAIAACAAEAAAACAAAAAEEAAAAAAAAAA=</HashCode>
+      <FileName>Models\Flight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirportBaggageCompartmentBackend.Models.Position">
+    <Position X="3.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Position.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirportBaggageCompartmentBackend.Models.Service">
+    <Position X="5.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAACAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Service.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirportBaggageCompartmentBackend.Models.User">
+    <Position X="3.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAEAAAAAAAAAAAAAACAAAQAAAAAAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirportBaggageCompartmentBackend.Models.Warehouse">
+    <Position X="3.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAACIAAAAACAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Models\Warehouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirportBaggageCompartmentBackend.DatabaseContext">
+    <Position X="9" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAEAACAAAQAQAAAgACAAAAAACAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>DatabaseContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="AirportBaggageCompartmentBackend.Models.Role">
+    <Position X="5.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Role.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

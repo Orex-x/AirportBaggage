@@ -1,3 +1,22 @@
+
+create or replace procedure BackupCSV()
+    language plpgsql
+AS
+$$
+DECLARE
+	mviews RECORD;
+	myName text;
+BEGIN
+	FOR mviews IN SELECT table_name FROM information_schema.tables 
+		WHERE table_type = 'BASE TABLE' and table_schema = 'public' LOOP
+
+			EXECUTE format(E'COPY %I TO \'C:\\db_dumps\\csv\\%s_db.csv\' (FORMAT CSV, HEADER TRUE, DELIMITER \',\', ENCODING \'WIN1251\')', mviews.table_name, mviews.table_name);
+	
+	END LOOP;
+end;
+$$;
+
+
 INSERT INTO public."Flights"("FlightNumber", "DepartureTime", "ArrivalTime", "Destination", "DepartureGate", "ArrivalGate")
 VALUES 
     ('AA101', '2023-04-01 10:00:00', '2023-01-01 12:30:00', 'New York', 'A1', 'B4'),

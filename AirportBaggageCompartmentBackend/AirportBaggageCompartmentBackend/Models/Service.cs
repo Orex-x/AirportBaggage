@@ -1,5 +1,8 @@
-﻿namespace AirportBaggageCompartmentBackend.Models;
+﻿using EasyData.EntityFrameworkCore;
 
+namespace AirportBaggageCompartmentBackend.Models;
+
+[MetaEntity(DisplayName = "Сервис", DisplayNamePlural = "Сервисы", Description = "Выборка сервесов")]
 public class Service
 {
     public int Id { get; set; }

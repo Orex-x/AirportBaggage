@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="AirportBaggageCompartment.Models.Baggage">
+    <Position X="3" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECACAABAAAgAAAAAAAAAAACCBAQBAACAAAAAACgAA=</HashCode>
+      <FileName>Models\Baggage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirportBaggageCompartment.Models.CharsModel">
+    <Position X="4.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\CharsModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirportBaggageCompartment.Models.Customer">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAACAAAABAAAAAAAAAAAAAAAAAAAAAIAAAAAg=</HashCode>
+      <FileName>Models\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirportBaggageCompartment.Models.Employee">
+    <Position X="4.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAABCAAAAAgACAAAAQAAACAAAAACAAAIAAAAAA=</HashCode>
+      <FileName>Models\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirportBaggageCompartment.Models.Flight">
+    <Position X="8.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAAAAAAAAIAACAAEAAAACAAAAAEEAAAAAAAAAA=</HashCode>
+      <FileName>Models\Flight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirportBaggageCompartment.Models.Position">
+    <Position X="4.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACACAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Position.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirportBaggageCompartment.Models.Service">
+    <Position X="6.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAACAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Service.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirportBaggageCompartment.Models.User">
+    <Position X="8.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAEAAAAAAAAAAAAAACAAAQAAAAAAA=</HashCode>
+      <FileName>Models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirportBaggageCompartment.Models.Warehouse">
+    <Position X="4.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAACIAAAAACAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Models\Warehouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirportBaggageCompartment.Services.ApiClient">
+    <Position X="8.25" Y="3.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="AirportBaggageCompartment.Services.ApiClient.CRUD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Services\ApiClient.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="AirportBaggageCompartment.Services.ApiClient.Method" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Services\ApiClient.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAAAAAAIhQIAAABACAAAAAAGAAAAAABAAEAAA=</HashCode>
+      <FileName>Services\ApiClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirportBaggageCompartment.Services.DatabaseService">
+    <Position X="10" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAQIAAAAAACwAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Services\DatabaseService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirportBaggageCompartment.ViewModels.MainWindowViewModel">
+    <Position X="6.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAGAAAAAAAAAgABAAAABAAAoQAAABAAAAAAwAEgAA=</HashCode>
+      <FileName>ViewModels\MainWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirportBaggageCompartment.ViewModels.ViewModelBase">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\ViewModelBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirportBaggageCompartment.Views.MainWindow">
+    <Position X="10" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\MainWindow.axaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirportBaggageCompartment.Program">
+    <Position X="10" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="AirportBaggageCompartment.Models.Role">
+    <Position X="6.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Role.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

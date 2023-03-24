@@ -1,4 +1,8 @@
-﻿namespace AirportBaggageCompartmentBackend.Models;
+﻿using EasyData.EntityFrameworkCore;
+
+namespace AirportBaggageCompartmentBackend.Models;
+
+[MetaEntity(DisplayName = "Должность", DisplayNamePlural = "Должности", Description = "Выборка должностей")]
 
 public class Position
 {

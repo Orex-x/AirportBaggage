@@ -13,6 +13,7 @@ public class DatabaseContext : DbContext
     public DbSet<Position> Positions { get; set; }
     public DbSet<Service> Services { get; set; }
     public DbSet<Warehouse> Warehouses { get; set; }
+    public DbSet<Ticket> Tickets { get; set; }
     public DbSet<User> Users { get; set; }
     
     public DatabaseContext()
@@ -30,6 +31,6 @@ public class DatabaseContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         optionsBuilder.UseNpgsql(
-            "host=localhost;port=5432;database=Airport;username=postgres;password=333");
+            "host=localhost;port=5432;database=Airport;username=postgres;password=123");
     }
 }

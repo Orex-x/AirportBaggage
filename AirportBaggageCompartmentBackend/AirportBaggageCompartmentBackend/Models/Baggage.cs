@@ -1,5 +1,8 @@
-﻿namespace AirportBaggageCompartmentBackend.Models;
+﻿using EasyData.EntityFrameworkCore;
 
+namespace AirportBaggageCompartmentBackend.Models;
+
+[MetaEntity(DisplayName = "Багаж", DisplayNamePlural = "Багажи", Description = "Выборка багажей")]
 public class Baggage
 {
     public int Id { get; set; }
@@ -8,6 +11,9 @@ public class Baggage
 
     public int FlightId { get; set; }
     public virtual Flight Flight { get; set; }
+    
+    public int EmployeeId { get; set; }
+    public virtual Employee Employee { get; set; }
 
     public int CustomerId { get; set; }
     public virtual Customer Customer { get; set; }
@@ -18,6 +24,5 @@ public class Baggage
     public int WarehouseId { get; set; }
     public virtual Warehouse Warehouse { get; set; }
 
-    public int EmployeeId { get; set; }
-    public virtual Employee Employee { get; set; }
+
 }
